@@ -1,0 +1,70 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin: 0px auto 16px;
+  display: block;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  margin: 0px;
+  margin-bottom: 8px;
+  color: #272727;
+}
+
+p.name-mfy {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.link > a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  color: #222;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 50px;
+  margin-bottom: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.link > a:hover {
+  background-color: rgb(194, 170, 170);
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer > p {
+  color: red;
+  font-size: 20px;
+}
